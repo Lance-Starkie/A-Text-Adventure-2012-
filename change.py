@@ -222,10 +222,10 @@ while (win == 0):
                         print ("OH NO, theres a hungery lion staring right at you!!!");
                         print ("This seems to be a lion hot spot");
                         if axe == (1):
-                                print ("Do you want to harvest it's organs with your axe?(y/n)");
+                                print ("Consume Lion?(y/n)");
                                 lulz = input("")
                                 if lulz == ("y"):
-                                        print("You harvest it's organs and eat them.");
+                                        print("You consumed the lion.");
                                         hunger = (hunger)-(3);
                                         if hunger < (0):
                                                 hunger = (0)
